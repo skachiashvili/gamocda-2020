@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'mtavruli';
+    src: url('bpg_nino_mtavruli_normal.eot');
+    src: local('☺'), url('bpg_nino_mtavruli_normal.woff') format('woff'), url('bpg_nino_mtavruli_normal.ttf') format('truetype'), url('bpg_nino_mtavruli_normal.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

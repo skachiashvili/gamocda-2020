@@ -1,0 +1,87 @@
+﻿*,*::before, *::after {
+    box-sizing:border-box;
+}
+html,body {
+    height:100%;
+    width:100%;
+    font-family: mtavruli;
+}
+.navbar{
+    background-color: #fff;
+    font-size:14px;
+}
+.navbar-brand {
+    min-height: 100px;
+}
+.navbar-default .navbar-nav li a {
+    color:#000;
+    display:flex;
+    align-items:center;
+    font-size:1.25em;
+    text-decoration:none;
+    font-family: 'mtavruli';
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+    color: #568cc8;
+}
+#home{
+    background:url(../img/mountains.jpeg) no-repeat center center fixed;
+    display:table;
+    height:100%;
+    position:relative;
+    width:100%;
+    background-size: cover;
+}
+.landing-text{
+    display:table-cell;
+    text-align:center;
+    vertical-align: middle;
+}
+.landing-text h1{
+    font-size:500%;
+    font-weight: 700;
+}
+.padding {
+    padding-top:180px;
+}
+
+
+footer {
+    width:100%;
+    background:url(../img/Footer-bg.png) no-repeat center center;
+    margin-top:40px;
+    color:#fff;
+    max-height: 20vw;
+    font-family:mtavruli;
+}
+.fa {
+    padding:15px;
+    font-size:25px;
+    color:#fff;
+}
+.fa:hover {
+    color:#d5d5d5;
+    text-decoration: none;
+}
+.icon {
+    max-width:200px;
+}
+.map {
+    padding:100px 0;
+}
+@media (max-width:768px){
+    .landing-text h1{
+        font-size:300%;
+    }
+    .fa {
+        font-size: 20px;
+        padding:10px;
+    }
+    .icon {
+        padding-top:5%;
+        max-width: 100px;
+    }
+    footer {
+        height:100%;
+    }
+}
